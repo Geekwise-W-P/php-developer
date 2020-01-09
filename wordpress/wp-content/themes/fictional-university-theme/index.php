@@ -28,8 +28,14 @@ get_header(); ?>
     <p><a class="btn btn--blue" href="<?php the_permalink();?>">Continue Reading</a></p>
     </div>
 
+    <?php }
+
+echo paginate_links();
+
+?>
+
 </div>
-  <?php }
-  ?>
+
+
 
 <?php get_footer();?>
